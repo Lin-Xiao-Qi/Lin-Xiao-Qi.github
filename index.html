@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>解剖地瓜學</title>
+		<meta name="description" content="map created using amCharts pixel map generator" />
+
+		<!--
+			This map was created using Pixel Map Generator by amCharts and is licensed under the Creative Commons Attribution 4.0 International License.
+			You may use this map the way you see fit as long as proper attribution to the name of amCharts is given in the form of link to https://pixelmap.amcharts.com/
+			To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+
+			If you would like to use this map without any attribution, you can acquire a commercial license for the JavaScript Maps - a tool that was used to produce this map.
+			To do so, visit amCharts Online Store: https://www.amcharts.com/online-store/
+		-->
+
+		<!-- amCharts javascript sources -->
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/taiwanLow.js"></script>
+
+		<!-- amCharts javascript code -->
+		<script type="text/javascript">
+			AmCharts.makeChart("map",{
+					"type": "map",
+					"pathToImages": "http://www.amcharts.com/lib/3/images/",
+					"addClassNames": true,
+					"fontSize": 15,
+					"color": "#000000",
+					"projection": "mercator",
+					"backgroundAlpha": 1,
+					"backgroundColor": "rgba(33,180,222,0)",
+					"dataProvider": {
+						"map": "taiwanLow",
+						"getAreasFromMap": true,
+						"images": [
+							{
+								"top": 40,
+								"left": 60,
+								"width": 80,
+								"height": 40,
+								"pixelMapperLogo": true,
+								"imageURL": "http://pixelmap.amcharts.com/static/img/logo-black.svg",
+								"url": "http://www.amcharts.com"
+							}
+						],
+						"areas": [
+							{
+								"id": "TW-NWT",
+								"title": "New Taipei",
+								"color": "rgba(215,134,43,0.8)",
+								"url": "內頁.html"
+							},
+							{
+								"id": "TW-HUA",
+								"title": "Hualien",
+								"color": "rgba(37,139,54,1)",
+								"url":"東部-1html"
+							},
+							{
+								"id": "TW-KEE",
+								"title": "Keelung",
+								"color": "rgba(215,134,43,0.8)",
+								"url": "內頁.html"
+							},
+							{
+								"id": "TW-TPE",
+								"title": "Taipei",
+								"color": "rgba(215,134,43,0.8)",
+								"url": "內頁.html"
+							},
+							{
+								"id": "TW-TAO",
+								"title": "Taoyuan",
+								"color": "rgba(215,134,43,0.8)",
+								"url": "內頁.html"
+							},
+							{
+								"id": "TW-HSZ",
+								"title": "Hsinchu",
+								"color": "rgba(215,134,43,0.8)",
+								"url": "內頁.html"
+							},
+							{
+								"id": "TW-HSQ",
+								"title": "Hsinchu",
+								"color": "rgba(215,134,43,0.8)",
+								"url": "內頁.html"
+							},
+							{
+								"id": "TW-MIA",
+								"title": "Miaoli",
+								"color": "rgba(153,73,47,1)",
+								"url":"中部.html"
+							},
+							{
+								"id": "TW-ILA",
+								"title": "Yilan",
+								"color": "rgba(215,134,43,0.8)",
+								"url": "內頁.html"
+							},
+							{
+								"id": "TW-TXG",
+								"title": "Taichung",
+								"color": "rgba(153,73,47,1)",
+								"url":"中部.html"
+							},
+							{
+								"id": "TW-CHA",
+								"title": "Changhua",
+								"color": "rgba(153,73,47,1)",
+								"url":"中部.html"
+							},
+							{
+								"id": "TW-YUN",
+								"title": "Yunlin",
+								"color": "rgba(153,73,47,1)",
+								"url":"中部.html"
+							},
+							{
+								"id": "TW-CYI",
+								"title": "Chiayi",
+								"color": "rgba(34,142,167,1)",
+								"url":"南部.html"
+							},
+							{
+								"id": "TW-CYQ",
+								"title": "Chiayi",
+								"color": "rgba(34,142,167,1)",
+								"url":"南部.html"
+							},
+							{
+								"id": "TW-TNN",
+								"title": "Tainan",
+								"color": "rgba(34,142,167,1)",
+								"url":"南部.html"
+							},
+							{
+								"id": "TW-PIF",
+								"title": "Pingtung",
+								"color": "rgba(34,142,167,1)",
+								"url":"南部.html"
+							},
+							{
+								"id": "TW-KHH",
+								"title": "Kaohsiung",
+								"color": "rgba(34,142,167,1)",
+								"url":"南部.html"
+							},
+							{
+								"id": "TW-TTT",
+								"title": "Taitung",
+								"color": "rgba(37,139,54,1)",
+								"url":"東部-1.html"
+							},
+							{
+								"id": "TW-NAN",
+								"title": "Nantou",
+								"color": "rgba(153,73,47,1)",
+								"url":"中部.html"
+							}
+						]
+					},
+					"balloon": {
+						"horizontalPadding": 15,
+						"borderAlpha": 0,
+						"borderThickness": 1,
+						"verticalPadding": 15
+					},
+					"areasSettings": {
+						"color": "rgba(47,153,64,0.02)",
+						"outlineColor": "rgba(33,180,222,0)",
+						"rollOverOutlineColor": "rgba(33,180,222,0)",
+						"rollOverBrightness": 20,
+						"selectedBrightness": 20,
+						"selectable": true,
+						"unlistedAreasAlpha": 0,
+						"unlistedAreasOutlineAlpha": 0
+					},
+					"imagesSettings": {
+						"alpha": 1,
+						"color": "rgba(47,153,64,0.02)",
+						"outlineAlpha": 0,
+						"rollOverOutlineAlpha": 0,
+						"outlineColor": "rgba(33,180,222,0)",
+						"rollOverBrightness": 20,
+						"selectedBrightness": 20,
+						"selectable": true
+					},
+					"linesSettings": {
+						"color": "rgba(47,153,64,0.02)",
+						"selectable": true,
+						"rollOverBrightness": 20,
+						"selectedBrightness": 20
+					},
+					"zoomControl": {
+						"zoomControlEnabled": true,
+						"homeButtonEnabled": false,
+						"panControlEnabled": false,
+						"right": 38,
+						"bottom": 30,
+						"minZoomLevel": 0.25,
+						"gridHeight": 100,
+						"gridAlpha": 0.1,
+						"gridBackgroundAlpha": 0,
+						"gridColor": "#FFFFFF",
+						"draggerAlpha": 1,
+						"buttonCornerRadius": 2
+					}
+				});
+		</script>
+		
+		<style>
+		h1{text-align: center;}
+		p.font1{
+                font-family:'Times New Roman', Times, serif;
+            }
+			#test3{background-color: rgb(250, 222, 84) ;}
+		p.size1{
+			font-size: x-large;
+		}
+		</style>
+	</head>
+	<body style="margin: 0;background-color: rgba(241, 236, 218, 0.178);">
+		<h1><p id="test3">解剖地瓜學</p></h1>
+		<div class="menu"></div>
+		<pre><p class="font1">  探索台灣各地景點，動動你的滑鼠，按下地圖帶你來到意想不到的世界!!</p></pre>
+		<div class="title">
+			<pre><h2><span> 請點擊你喜歡的區域 ⬇ ⬇</span></h2></pre>
+		</div>
+
+
+		<div id="map" style="width: 90%; height: 700px;"></div>
+		
+		
+	</body>
+</html>
